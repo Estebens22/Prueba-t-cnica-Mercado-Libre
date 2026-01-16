@@ -77,3 +77,5 @@ El dataset refleja escenarios reales del marketplace, incluyendo:
 Esto permite evaluar la capacidad del modelo para generalizar en condiciones realistas.
 
 ---
+
+⚠️ El archivo `MLA_100k.jsonlines` no se incluye en el repositorio debido a restricciones de tamaño de GitHub.
