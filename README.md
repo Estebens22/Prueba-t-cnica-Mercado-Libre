@@ -96,19 +96,24 @@ La evaluación se realizó sobre un **hold-out fijo de 10.000 publicaciones**, s
 
 ### Resultados finales:
 
-```
 | Métrica | Valor |
 |------|------|
 | Accuracy | **0.8862** |
 | Recall (USED) | **0.8742** |
 | F1-score macro | **0.89** |
 
-          precision    recall  f1-score   support
+```
+Classification report:
 
-       new       0.89      0.90      0.89
-      used       0.88      0.87      0.88
+              precision    recall  f1-score   support
 
-accuracy                           0.89
+           0       0.89      0.90      0.89      5406
+           1       0.88      0.87      0.88      4594
+
+    accuracy                           0.89     10000
+   macro avg       0.89      0.89      0.89     10000
+weighted avg       0.89      0.89      0.89     10000
+
 ```
 
 Estos resultados superan holgadamente el umbral solicitado en la consigna.
