@@ -128,10 +128,10 @@ python evaluate.py
 ```
 
 🧩 Decisiones clave
-	•	Se evitó el uso de texto pesado para garantizar latencia baja y escalabilidad.
-	•	Se utilizaron señales reales del negocio (logística, tipo de publicación, performance histórica).
-	•	Se mantuvo una separación clara entre feature engineering, modelo y evaluación.
-	•	Se priorizó un diseño reproducible y fácil de mantener.
+- Se evitó el uso de texto pesado para garantizar latencia baja y escalabilidad.
+- Se utilizaron señales reales del negocio (logística, tipo de publicación, performance histórica).
+- Se mantuvo una separación clara entre feature engineering, modelo y evaluación.
+- Se priorizó un diseño reproducible y fácil de mantener.
 
 ⸻
 
@@ -140,10 +140,10 @@ python evaluate.py
 El modelo logra un desempeño sólido utilizando únicamente información disponible al momento de la publicación, con un enfoque alineado a estándares reales de producción en marketplaces de gran escala.
 
 La solución es:
-	•	✔️ Precisa
-	•	✔️ Escalable
-	•	✔️ Interpretable
-	•	✔️ Fácil de mantener
+- ✔️ Precisa
+- ✔️ Escalable
+- ✔️ Interpretable
+- ✔️ Fácil de mantener
 
 ⸻
 
