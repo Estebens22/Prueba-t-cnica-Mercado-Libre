@@ -1,0 +1,4 @@
+# Datasets
+data/*.jsonlines
+data/*.jsonl
+data/*.csv
